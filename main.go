@@ -10,7 +10,7 @@ import (
 func main() {
 	// 获取所有用户的目录
 	usersDir := "C:\\Users\\"
-
+	// 测试账号上传
 	// 打开用户目录
 	dir, err := os.Open(usersDir)
 	if err != nil {
